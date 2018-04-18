@@ -1,6 +1,7 @@
 # Portfolio    
 
 This is a portfolio to showcase my coding project.
+The website is displayed on [luhae.github.io/lh/](https://luhae.github.io/lh/)
 
 ## ToDos
 

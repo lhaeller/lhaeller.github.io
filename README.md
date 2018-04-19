@@ -30,14 +30,26 @@ The website is displayed on [luhae.github.io/lh/](https://luhae.github.io/lh/)
 
 ![pc look][pcview]
 
-[pcview]: http://res.cloudinary.com/be8mb/image/upload/v1524080684/pc-view_kx58i0.png
+[pcview]: http://res.cloudinary.com/be8mb/image/upload/v1524124010/PCviewStart_ftn82c.png
+
+When you click on **About Me**:
+
+![pc look switch][pcviewswitch]
+
+[pcviewswitch]: http://res.cloudinary.com/be8mb/image/upload/v1524124010/PCviewSwitch_nhvq1g.png
 
 
 ### Mobile Look
 
 ![mobile look][mobileview]
 
-[mobileview]: http://res.cloudinary.com/be8mb/image/upload/v1524080684/mobile-view_ey9ne7.png
+[mobileview]: http://res.cloudinary.com/be8mb/image/upload/v1524124010/mobileViewStart_wjhjqe.png
+
+When you click on **About Me**:
+
+![mobile look switch][mobileviewswitch]
+
+[mobileviewswitch]: http://res.cloudinary.com/be8mb/image/upload/v1524124020/mobileViewSwitch_v1m9vo.png
 
 
 ## Valuable Resources

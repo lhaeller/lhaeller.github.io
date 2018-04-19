@@ -1,4 +1,4 @@
-# Portfolio    
+# Portfolio 2.0
 
 This is a portfolio to showcase my coding project.
 The website is displayed on [luhae.github.io/lh/](https://luhae.github.io/lh/)
@@ -7,11 +7,13 @@ For more links see [here](https://github.com/luhae/lh/blob/master/README.md#link
 
 ## Guidelines
 
-**While developing...**
+While developing | When committing to master
+---|---
+the html code will mirror CodePen | the html code will mirror CodePen
+the css style will be fetched from **CodePen** | the css style has to be fetched from **GitHub**
+no Jekyll will be activated | no Jekyll will be activated
 
-- the html code will mirror CodePen
-- the css style will fetch from github
-- no Jekyll will be activated
+This means the last commit before mergin with the master branch the index.html file has to be changed to fetch the style from GitHub.
 
 ## ToDos
 
@@ -19,19 +21,19 @@ For more links see [here](https://github.com/luhae/lh/blob/master/README.md#link
 
 - [x] Clone to local machine to start the implementation
 - [x] Create a concept for the website
-- [ ] Disable the Jekyll theme
-- [ ] Publish the project on codepen
-- [ ] Create the basic structure you want to use
-
+- [x] Disable the Jekyll theme
+- [x] Publish the project on codepen
+- [ ] Create the basic HTML
 
 ### Essentials
 
-- [ ] Link your other projects
-- [ ] Add thumbnails to your projects
+- [ ] Link other projects
+- [ ] Add thumbnails to projects
 - [ ] CSS for good design
 - [ ] Custom CSS for mobile
 
-## Bonus
+### Bonus
+
 - [ ] Add as "website" on all online profiles
 - [ ] Register for custom domain name
 

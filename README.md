@@ -5,12 +5,22 @@ The website is displayed on [luhae.github.io/lh/](https://luhae.github.io/lh/)
 
 For more links see [here](https://github.com/luhae/lh/blob/master/README.md#links)
 
+## Guidelines
+
+**While developing...**
+
+- the html code will mirror CodePen
+- the css style will fetch from github
+- no Jekyll will be activated
+
 ## ToDos
 
 ### Getting Started
 
 - [x] Clone to local machine to start the implementation
 - [x] Create a concept for the website
+- [ ] Disable the Jekyll theme
+- [ ] Publish the project on codepen
 - [ ] Create the basic structure you want to use
 
 
@@ -22,7 +32,6 @@ For more links see [here](https://github.com/luhae/lh/blob/master/README.md#link
 - [ ] Custom CSS for mobile
 
 ## Bonus
-- [ ] Publish the project on codepen
 - [ ] Add as "website" on all online profiles
 - [ ] Register for custom domain name
 

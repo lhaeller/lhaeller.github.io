@@ -69,7 +69,7 @@ When you click on **About Me**:
 
 ### Showcase
 
-- [CodePen version]() *not yet linked*
+- [CodePen version](https://codepen.io/luhae/full/dePpzv/)
 
 ### Guides
 

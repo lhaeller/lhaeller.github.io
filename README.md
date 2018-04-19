@@ -3,6 +3,8 @@
 This is a portfolio to showcase my coding project.
 The website is displayed on [luhae.github.io/lh/](https://luhae.github.io/lh/)
 
+For more links see [here](https://github.com/luhae/lh/blob/master/README.md#links)
+
 ## ToDos
 
 ### Getting Started
@@ -52,8 +54,13 @@ When you click on **About Me**:
 [mobileviewswitch]: http://res.cloudinary.com/be8mb/image/upload/v1524124020/mobileViewSwitch_v1m9vo.png
 
 
-## Valuable Resources
+## Links
 
-### Links
+### Showcase
+
+- [CodePen version]() *not yet linked*
+
+### Guides
 
 - [Configuring a publishing source for GitHub Page](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+- [Customizing your Jekyll theme](https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/)

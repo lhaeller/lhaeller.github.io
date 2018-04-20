@@ -1,3 +1,41 @@
-h1{
-  color: red;
-}
+  #root-container{
+    /*max-width: 80%;*/
+    font-size: 100%;
+  }
+
+  .border{
+    background: #474747;
+    height: 3em;
+  }
+
+  .flex-container {
+    padding: 0;
+    margin: 2em 0;
+    /* We first create a flex layout context */
+    list-style: none;
+    display: flex;
+    /* Then we define the flow direction 
+       and if we allow the items to wrap 
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+  }
+
+  .flex-item {
+    background: tomato;
+    padding: 1em;
+    width: 5em;
+    height: 5em;
+    margin: auto;
+    
+    line-height: 3em;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }

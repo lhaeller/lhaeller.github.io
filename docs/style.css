@@ -39,3 +39,133 @@
     font-size: 3em;
     text-align: center;
   }
+
+/***** import from Twitch Viewer ***/ 
+
+.container{
+  font-family: Calibri;
+  max-width: 60%; 
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #6441A4;
+}
+
+#headline{
+  margin: auto;
+  /* margin: auto auto auto 4em; */
+  /*min-width: 321px;*/
+  min-width: 20em;
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+#APIform{
+  margin: auto auto auto auto;
+  width: 20%;
+  min-width: 260px;
+  border: none;
+  padding: 10px;
+  display: subgrid;
+  grid-template-rows: auto;
+}
+
+
+.formButtons{
+  border: none;
+  background: white;
+  color: black;
+  font-family: Calibri;
+  font-size: 1em;
+  margin: auto 1em;
+}
+
+#resultContainer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: auto 5% 5% 5%;
+  list-style: none;
+  max-width: 80%;
+  min-width: 60%;
+}
+
+.resultItem {
+  width: 100%;  
+  height: auto; 
+  background: white;
+  padding: 0px;
+  margin-top: 10px;
+  /*color: white;*/
+  /*border: 1em solid #6441A4; */
+}
+
+.bio{
+  max-width: 50%;
+}
+
+.logo{
+  border: none;
+  width: 3em;
+  height: 3em;
+  float: right;
+}
+
+.invisible{
+  visibility: collapse;
+  display: none;
+}
+
+.item-a {
+  grid-area: info;
+}
+.item-b {
+  grid-area: logo;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  display: grid;
+  /*margin: auto;*/
+  grid-template-columns: 90% 10%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "info logo"
+}
+
+.channelInfo{
+  /*border: 8px solid green;*/
+  /*margin: auto;*/
+  /*float: left;*/
+  /*min-width: 80%;*/
+  padding: 2em;
+}
+
+
+/*
+.container {
+  grid-template-columns: 70% 30%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "info logo"
+}*/
+
+@media only screen and (orientation: portrait) {
+
+}
+
+@media only screen and (max-device-width: 480px) {
+
+
+}

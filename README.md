@@ -23,21 +23,21 @@ This means the last commit before mergin with the master branch the index.html f
 - [x] Create a concept for the website
 - [x] Disable the Jekyll theme
 - [x] Publish the project on codepen
-- [ ] Create the basic HTML
+- [x] Create the basic HTML
 
 ### Specialized
 
-- [ ] flexbox-items: image fill
+- [x] flexbox-items: image fill
 - [ ] flexbox-items: hover text
-- [ ] navigation bar: button position
-- [ ] navigation bar: button style
+- [x] navigation bar: button position
+- [x] navigation bar: button style
 
 
 ### Essentials
 
 - [ ] Link to other projects
-- [ ] Add thumbnails to projects
-- [ ] CSS for good design
+- [x] Add thumbnails to projects
+- [x] CSS for good design
 - [ ] Custom CSS for mobile
 
 ### Bonus

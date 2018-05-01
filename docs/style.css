@@ -22,7 +22,7 @@
 
 .button{
   border: none;
-  background: tomato;
+  background: #474747;
   color: white;
   font-family: Calibri;
   font-size: 120%;
@@ -46,7 +46,7 @@
 }
 
 .flex-project-item {
-  background: tomato;
+  background: white;
   padding: 0em;
   width: 8em;
   height: 8em;
@@ -78,10 +78,23 @@
   transition:opacity 1s linear;
   visibility:hidden;
 }
-.flex-project-item:hover > .project-hover-text{
+.flex-project-item:hover > a > .project-hover-text{
   opacity:1;
   visibility:visible;
 }
+
+.flex-project-item:hover > div > .project-image{
+  opacity:0;
+  /*transition:opacity 1s linear;*/
+  /*visibility:hidden;*/
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 
 
 /***** import from Twitch Viewer ***/ 

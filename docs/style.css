@@ -28,7 +28,7 @@
   font-size: 120%;
   margin: auto;
 }
-
+  
 .flex-project-container {
   /*margin: 3em 0 0 0;*/
   /* We first create a flex layout context */
@@ -77,10 +77,12 @@
   opacity:0;
   transition:opacity 1s linear;
   visibility:hidden;
+  display: none;
 }
 .flex-project-item:hover > a > .project-hover-text{
   opacity:1;
   visibility:visible;
+  display: block;
 }
 
 .flex-project-item:hover > div > .project-image{

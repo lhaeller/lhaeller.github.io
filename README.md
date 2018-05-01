@@ -25,9 +25,17 @@ This means the last commit before mergin with the master branch the index.html f
 - [x] Publish the project on codepen
 - [ ] Create the basic HTML
 
+### Specialized
+
+- [ ] flexbox-items: image fill
+- [ ] flexbox-items: hover text
+- [ ] navigation bar: button position
+- [ ] navigation bar: button style
+
+
 ### Essentials
 
-- [ ] Link other projects
+- [ ] Link to other projects
 - [ ] Add thumbnails to projects
 - [ ] CSS for good design
 - [ ] Custom CSS for mobile

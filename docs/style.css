@@ -9,7 +9,27 @@
   height: 3em;
 }
 
-.flex-container {
+.flex-navi{
+  max-width: 60%;
+  margin: auto 4% auto auto;
+  padding: 1%;
+  border: 2px solid green;
+  display: flex;
+  list-style: none;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.button{
+  border: none;
+  background: tomato;
+  color: white;
+  font-family: Calibri;
+  font-size: 120%;
+  margin: auto;
+}
+
+.flex-project-container {
   /*margin: 3em 0 0 0;*/
   /* We first create a flex layout context */
   list-style: none;
@@ -20,13 +40,12 @@
   * flex-direction: row;
   * flex-wrap: wrap;
   */
-  border: 2px solid green;
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: flex-end;
 }
 
-.flex-item {
+.flex-project-item {
   background: tomato;
   padding: 1em;
   width: 5em;

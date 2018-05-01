@@ -42,9 +42,10 @@ This means the last commit before mergin with the master branch the index.html f
 
 ### Bonus
 
-- [ ] Hover a project to show description (fade in)
+- [ ] Fade-in for hover description
 - [ ] Add as "website" on all online profiles
 - [ ] Register for custom domain name
+- [ ] Compress images
 
 ## Concept
 

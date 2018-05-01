@@ -15,7 +15,7 @@ no Jekyll will be activated | no Jekyll will be activated
 
 This means the last commit before mergin with the master branch the index.html file has to be changed to fetch the style from GitHub.
 
-## ToDos
+## ToDos : Default Content
 
 ### Getting Started
 
@@ -35,7 +35,7 @@ This means the last commit before mergin with the master branch the index.html f
 
 ### Essentials
 
-- [ ] Link to other projects
+- [x] Link to other projects
 - [x] Add thumbnails to projects
 - [x] CSS for good design
 - [ ] Custom CSS for mobile
@@ -46,6 +46,23 @@ This means the last commit before mergin with the master branch the index.html f
 - [ ] Add as "website" on all online profiles
 - [ ] Register for custom domain name
 - [ ] Compress images
+
+## ToDos : Switched Content
+
+### JavaScript
+
+- [ ] Function to enable switched content
+- [ ] Function to enable default content
+
+### HTML / CSS
+
+- [ ] Setup of featured content
+- [ ] Design of featured content
+- [ ] All texts
+
+### Bonus
+
+- [ ] Image when hovering over a description
 
 ## Concept
 

@@ -1,48 +1,212 @@
-<link rel="stylesheet" href="style.css">
-<div id="root-container">
-	<div class="border">
-<!--		<h1>Lucien Haeller : lh1</h1>-->
-		<ul class="flex-navi">
-			<li><input class="button default-view" value="About Me" type="button" onClick="showSwitchedView()"></input></li>
-		</ul>
-  	</div>
-	<ul class="flex-project-container">
-	  <li class="flex-project-item default-view">
-	  	<div>
-	  		<img class="project-image" src="http://res.cloudinary.com/be8mb/image/upload/v1525180751/Twitch_Status_w9oxa8.jpg"/>
-	  	</div>
-	  	<a href="https://codepen.io/luhae/full/zjrwYg/" target="_blank">
-	  		<div class="project-hover-text">show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! 
-	  		</div>
-	  	</a>
-	  </li>
-	  <li class="flex-project-item default-view">
-	  	<div>
-	  		<img class="project-image" src="http://res.cloudinary.com/be8mb/image/upload/v1525180751/Wikipedia_Viewer_xbbpvt.jpg"/>
-	  	</div>
-	  	<a href="https://codepen.io/luhae/full/MVrvYZ/" target="_blank">
-	  		<div class="project-hover-text">show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! 
-	  		</div>
-	  	</a>
-	  </li>
-	  <li class="flex-project-item default-view">
-	  	<div>
-	  		<img class="project-image" src="http://res.cloudinary.com/be8mb/image/upload/v1525180751/Weather_Call_iyqvgv.jpg"/>
-	  	</div>
-	  	<a href="https://codepen.io/luhae/full/EoqPpr/" target="_blank">
-	  		<div class="project-hover-text">show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! 
-	  		</div>
-	  	</a>
-	  </li>
-	  <li class="flex-project-item default-view">
-	  	<div>
-	  		<img class="project-image" src="http://res.cloudinary.com/be8mb/image/upload/v1525180751/Random_Quote_Machine_yeldks.jpg"/>
-	  	</div>
-	  	<a href="https://codepen.io/luhae/full/GyXOxP" target="_blank">
-	  		<div class="project-hover-text">show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! show me! 
-	  		</div>
-	  	</a>
-	  </li>
-	</ul>	
-	<div class="border"></div>
-</div>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>lh1.live</title>
+		<link rel="stylesheet" href="../style/bulma.css">
+        <link rel="stylesheet" href="../style/helpers.css"/>
+        <link rel="stylesheet" href="../style/box-control.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <script defer src="../app/app.js"></script>        
+        <style>
+            
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+            
+        </style>
+	</head>
+	<body>
+        <!-- .hero -->
+        <section class="hero has-background-black">
+            <div class="hero-body">
+                <div class="container">
+                    <figure class="image center">
+                        <img src="../images/lh1-live-2.jpg" style="max-width: 50%;">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <!-- /.hero -->
+
+        <!-- .hero-head -->
+        <div class="hero-head">
+            <div class="columns is-mobile is-marginless heading has-text-weight-bold">
+                <div class="column center buttons">
+                    <p id="fin-mode" class="navbar-item button is-white is-small has-text-weight-light">Finished</p>
+                    <p id="act-mode" class="navbar-item button is-white is-small has-text-weight-light is-active">Active</p>
+                    <!--<p id="fut-mode" class="navbar-item button is-white is-small has-text-weight-light">Future</p>-->
+                    <p id="me-mode" class="navbar-item button is-white is-small has-text-weight-light">About Me</p>
+                    <p id="con-mode" class="navbar-item button is-white is-small has-text-weight-light">Contact</p>
+                </div>
+            </div>
+        </div>
+        <!-- /.hero-head -->
+
+        <!-- .section -->
+        <section class="section">
+            <div class="container">
+                <div class="columns is-multiline">
+                    <div class="column is-one-third fin-box">
+                        <div class="notification is-primary">
+                            <h1 class="title is-size-5">Finished Project</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-one-third fin-box">
+                        <div class="notification is-primary">
+                            <h1 class="title is-size-5">Finished Project</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-one-third fin-box">
+                        <div class="notification is-primary">
+                            <h1 class="title is-size-5">Finished Project</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-one-third fin-box">
+                        <div class="notification is-primary">
+                            <h1 class="title is-size-5">Finished Project</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-one-third fin-box">
+                        <div class="notification is-primary">
+                            <h1 class="title is-size-5">Finished Project</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-one-third fin-box">
+                        <div class="notification is-primary">
+                            <h1 class="title is-size-5">Finished Project</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-one-third act-box">
+                        <div class="notification is-danger">
+                            <h1 class="title is-size-5">Active Project</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-one-third act-box">
+                        <div class="notification is-danger">
+                            <h1 class="title is-size-5">Active Project</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-one-third act-box">
+                        <div class="notification is-danger">
+                            <h1 class="title is-size-5">Active Project</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="column is-one-third fut-box">
+                        <div class="notification is-warning">
+                            <h1 class="title is-size-5">Future Project</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+                    -->
+                    <div class="column is-two-thirds me-box">
+                        <div class="notification">
+                            <h1 class="title is-size-5">About Me</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-one-third me-box">
+                        <div class="notification">
+                            <h1 class="title is-size-5"></h1>
+                            <p class="is-size-6">
+                                <img src="http://res.cloudinary.com/be8mb/image/upload/v1516045329/fishnchips_au5nxn.jpg"/>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-one-third con-box">
+                        <div class="notification">
+                            <h1 class="title is-size-5">Contact</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-one-third con-box">
+                        <div class="notification">
+                            <h1 class="title is-size-5">Contact</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-one-third con-box">
+                        <div class="notification">
+                            <h1 class="title is-size-5">Contact</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column is-two-thirds con-box">
+                        <div class="notification">
+                            <h1 class="title is-size-5">Contact</h1>
+                            <p class="is-size-6">
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                                This is the super description for one of my projects. I'll make sure they'll sound exciting, not generic! \(^-^)/
+                            </p>
+                        </div>
+                    </div>
+    
+                    <!--- . generics for tests -->
+
+
+
+
+
+                    <!--- / generics for tests --->
+
+
+
+                </div>
+            </div>
+        </section>
+        <!-- /.section -->
+
+	</body>
+</html>

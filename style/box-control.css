@@ -1,0 +1,7 @@
+.fin-box, .act-box, .fut-box, .me-box, .con-box {
+	display: none;
+}
+
+.visibleBox {
+	display: block;
+}

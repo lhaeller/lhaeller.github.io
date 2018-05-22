@@ -1,0 +1,31 @@
+/*! scrimba.com/p/pV5eHk/cb6qNTb */
+.center, .center-column, .top, .right, .left {
+	display: flex;
+	/*justify-content: center;*/
+	/*align-items: center;*/
+}
+
+.center-column {
+    flex-direction: column;
+}
+
+.top    { align-items:     flex-start; }
+.right  { justify-content: flex-end;   }
+.bottom { align-items:     flex-end;   }
+.left   { justify-content: flex-start; }
+
+.not-desktop{
+	display: none;
+}
+
+@media (max-width: 641px) {
+
+	.desktop {
+		display: none;
+	}
+
+	.not-desktop{
+		display: block;
+	}
+}
+

@@ -29,3 +29,13 @@
 	}
 }
 
+a{
+	color: black;
+}
+a:link{
+	text-decoration: none !important;
+}
+
+img{
+	max-width: 20em;
+}

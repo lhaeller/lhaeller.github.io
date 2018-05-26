@@ -5,3 +5,7 @@
 .visibleBox {
 	display: block;
 }
+
+.box-sized {
+	min-height: 15em;
+}

@@ -39,3 +39,7 @@ a:link{
 img{
 	max-width: 20em;
 }
+
+.normal-ul {
+  list-style: square;
+}

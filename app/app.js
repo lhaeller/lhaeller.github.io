@@ -15,6 +15,7 @@ $( document ).ready(function() {
 function displayRightBoxes(){
 
   let codeProjectElement = document.getElementById('cp-mode');
+  let missionElement = document.getElementById('mis-mode');
   let occupationElement = document.getElementById('occ-mode');
   let meElement = document.getElementById('me-mode');
   let sideProjectElement = document.getElementById('sp-mode');
@@ -25,6 +26,14 @@ function displayRightBoxes(){
     	$('.code-project-box').addClass('visibleBox');
     }else{
     	$('.code-project-box').removeClass('visibleBox');
+    }
+  }
+
+  if(missionElement !== null){
+    if(missionElement.classList.contains('is-active')){
+      $('.mission-box').addClass('visibleBox');
+    }else{
+      $('.mission-box').removeClass('visibleBox');
     }
   }
 

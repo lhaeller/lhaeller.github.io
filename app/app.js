@@ -24,6 +24,7 @@ function displayRightBoxes(){
   if(codeProjectElement !== null){
     if(codeProjectElement.classList.contains('is-active')){
     	$('.code-project-box').addClass('visibleBox');
+      $('.con-box').addClass('visibleBox');
     }else{
     	$('.code-project-box').removeClass('visibleBox');
     }
@@ -32,6 +33,7 @@ function displayRightBoxes(){
   if(missionElement !== null){
     if(missionElement.classList.contains('is-active')){
       $('.mission-box').addClass('visibleBox');
+      $('.con-box').addClass('visibleBox');
     }else{
       $('.mission-box').removeClass('visibleBox');
     }
@@ -40,6 +42,7 @@ function displayRightBoxes(){
   if(occupationElement !== null){
     if(occupationElement.classList.contains('is-active')){
       $('.occupation-box').addClass('visibleBox');
+      $('.con-box').removeClass('visibleBox');
     }else{
       $('.occupation-box').removeClass('visibleBox');
     }
@@ -48,6 +51,7 @@ function displayRightBoxes(){
   if(meElement !== null){
     if(meElement.classList.contains('is-active')){
     	$('.me-box').addClass('visibleBox');
+      $('.con-box').addClass('visibleBox');
     }else{
     	$('.me-box').removeClass('visibleBox');
     }
@@ -56,6 +60,7 @@ function displayRightBoxes(){
   if(sideProjectElement !== null){
     if(sideProjectElement.classList.contains('is-active')){
     	$('.side-project-box').addClass('visibleBox');
+      $('.con-box').addClass('visibleBox');
     }else{
     	$('.side-project-box').removeClass('visibleBox');
     }

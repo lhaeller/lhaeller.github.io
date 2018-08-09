@@ -13,33 +13,36 @@ $( document ).ready(function() {
 });
 
 function displayRightBoxes(){
-  let finElement = document.getElementById('fin-mode');
-  let actElement = document.getElementById('act-mode');
-  let futElement = document.getElementById('fut-mode');
+
+  let codeProjectElement = document.getElementById('cp-mode');
+  let missionElement = document.getElementById('mis-mode');
+  let occupationElement = document.getElementById('occ-mode');
   let meElement = document.getElementById('me-mode');
-  let conElement = document.getElementById('con-mode');
+  let mobileConBoxElement = document.getElementById('con-mode');
+  let sideProjectElement = document.getElementById('sp-mode');
 
-  if(finElement !== null){
-    if(finElement.classList.contains('is-active')){
-    	$('.fin-box').addClass('visibleBox');
+
+  if(codeProjectElement !== null){
+    if(codeProjectElement.classList.contains('is-active')){
+    	$('.code-project-box').addClass('visibleBox');
     }else{
-    	$('.fin-box').removeClass('visibleBox');
+    	$('.code-project-box').removeClass('visibleBox');
     }
   }
 
-  if(actElement !== null){
-    if(actElement.classList.contains('is-active')){
-    	$('.act-box').addClass('visibleBox');
+  if(missionElement !== null){
+    if(missionElement.classList.contains('is-active')){
+      $('.mission-box').addClass('visibleBox');
     }else{
-    	$('.act-box').removeClass('visibleBox');
+      $('.mission-box').removeClass('visibleBox');
     }
   }
 
-  if(futElement !== null){
-    if(futElement.classList.contains('is-active')){
-    	$('.fut-box').addClass('visibleBox');
+  if(occupationElement !== null){
+    if(occupationElement.classList.contains('is-active')){
+      $('.occupation-box').addClass('visibleBox');
     }else{
-    	$('.fut-box').removeClass('visibleBox');
+      $('.occupation-box').removeClass('visibleBox');
     }
   }
  
@@ -49,19 +52,15 @@ function displayRightBoxes(){
     }else{
     	$('.me-box').removeClass('visibleBox');
     }
-  }
+  }  
   
-  if(conElement !== null){
-    if(conElement.classList.contains('is-active')){
+  if(mobileConBoxElement !== null){
+    if(mobileConBoxElement.classList.contains('is-active')){
     	$('.con-box').addClass('visibleBox');
     }else{
     	$('.con-box').removeClass('visibleBox');
     }
   }
-
-
-
-
 
 
 }

@@ -9,3 +9,12 @@
 .box-sized {
 	min-height: 15em;
 }
+
+.desktop-box {
+	margin:auto;
+	width:80%;
+}
+
+.annotation{
+	text-align: right;
+}
